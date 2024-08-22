@@ -18,11 +18,11 @@ button.addEventListener("click", () => {
     }
 
     // Заміна значень в залежності від введеного тексту
-    if (inputValue.toLowerCase() === "юра") {
+    if (inputValue.toLowerCase() === "Юра") {
         inputValue = "Юра зараз байдикує";
-    } else if (inputValue.toLowerCase() === "лера") {
+    } else if (inputValue.toLowerCase() === "Лера") {
         inputValue = "Лера наприкрасніше ім'я на світі!";
-    } else if (inputValue.toLowerCase() === "єва") {
+    } else if (inputValue.toLowerCase() === "Єва") {
         inputValue = "Єва татова принцеса";
     }
 
