@@ -47,6 +47,7 @@ border-radius: 20px;
 color: #fff;
 text-align: center;
 box-sizing: border-box;
+overflow: auto;
 }
 .todo-title{
 
