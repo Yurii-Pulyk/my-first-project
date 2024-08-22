@@ -1,22 +1,3 @@
-// const button = document.querySelector('.input-container button')
-// const input = document.querySelector('.input-container input')
-
-// const list = document.querySelector('.todo-list')
-
-// button .addEventListener("click", () => {
-//     const li = document.createElement("li");
-//     li.className = "todo-list-item"
-//     const deleteBtn = document.createElement("button");
-//     deleteBtn.innerText = "Delete";
-//     li.innerText = input.value;
-//     list.appendChild(li);
-//     li.appendChild(deleteBtn);
-//     input.value = ("")
-
-//     deleteBtn .addEventListener("click", () => {
-//     list.removeChild (li);
-//     });
-// })
 
 
 
@@ -37,11 +18,11 @@ button.addEventListener("click", () => {
     }
 
     // Заміна значень в залежності від введеного тексту
-    if (inputValue.toLowerCase() === "Юра") {
+    if (inputValue.toLowerCase() === "юра") {
         inputValue = "Юра зараз байдикує";
-    } else if (inputValue.toLowerCase() === "Лера") {
+    } else if (inputValue.toLowerCase() === "лера") {
         inputValue = "Лера наприкрасніше ім'я на світі!";
-    } else if (inputValue.toLowerCase() === "Єва") {
+    } else if (inputValue.toLowerCase() === "єва") {
         inputValue = "Єва татова принцеса";
     }
 
