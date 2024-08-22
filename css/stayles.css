@@ -71,6 +71,7 @@ outline-color: #fff;
 .input-container{
 display: flex;
 justify-content: space-between;
+position: relative;
 }
 
 .todo-list-item{
@@ -88,7 +89,7 @@ justify-content: space-between;
 @media screen and (max-width: 768px) {
     .todo-container {
         width: 95%;
-        height: auto;
+        height: 95%;
         padding: 20px;
     }
 
@@ -107,13 +108,13 @@ justify-content: space-between;
     }
 
     .todo-list-item {
-        flex-direction: column;
+        
         align-items: flex-start;
     }
 
     .todo-list-item button {
-        margin-top: 10px;
-        width: 100%;
+        margin-top: 5px;
+        width: 20%;
     }
 }
 
